@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body {
+  margin: 0;
+}
+
+.container,
+.vert-container {
+  display: flex;
+}
+
+.vert-container {
+  flex-direction: column;
+}
+
+.left-column {
+  width: 50%;
+}
+
+.right-column {
+  width: 35%;
+  align-items: center;
+}
+
+/*====================
+IDs
+=====================*/
+
+#nav,
+#sub-nav {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#nav {
+  height: 100px;
+}
+
+#sub-nav {
+  height: 70px;
+  margin-bottom: 22px;
+}
+
+#wrapper {
+  justify-content: space-around;
+}
+
+#sticky-box {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+
+  width: 50px;
+  height: 50px;
+  transform: rotate(-12deg);
+}
+
+/*====================
+Classes
+=====================*/
+
+.nav-box,
+.sub-box {
+  width: 7%;
+  height: 60%;
+}
+
+.logo {
+  width: 5%;
+  height: 60%;
+  transform: rotate(-12deg);
+}
+
+.search {
+  width: 30%;
+  height: 60%;
+}
+
+.article-box {
+  height: 450px;
+  width: 100%;
+}
+
+.graphic {
+  height: 600px;
+  width: 70%;
+  align-items: center;
+}
+
+.square-image {
+  width: 150px;
+  height: 150px;
+  transform: rotate(-12deg);
+  margin: 12px;
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.title {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title .vert-container {
+  height: 180px;
+  width: 70%;
+}
+
+.button,
+.input {
+  width: 180px;
+  height: 50px;
+}
+
+.paragraph,
+.continue {
+  margin-top: 40px;
+}
+
+/*====================
+Font and Text Attributes
+=====================*/
+
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.button,
+.continue {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+}
+
+.button {
+  font-size: 20px;
+  text-align: center;
+  line-height: 2.2;
+}
+
+p,
+.paragraph {
+  font-family: "Source Serif Pro", serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.graphic p {
+  font-weight: 300;
+}
+
+/*====================
+Shades of Grey
+=====================*/
+
+.grey-8 {
+  background-color: #111;
+}
+
+.grey-7 {
+  background-color: #222;
+}
+
+.grey-6 {
+  background-color: #333;
+}
+
+.grey-5 {
+  background-color: #555;
+}
+
+.grey-4 {
+  background-color: #888;
+}
+
+.grey-3 {
+  background-color: #aaa;
+}
+
+.grey-2 {
+  background-color: #ccc;
+}
+
+.grey-1 {
+  background-color: #eee;
+}
+
+.grey-0 {
+  background-color: #fff;
+}
