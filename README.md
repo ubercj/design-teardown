@@ -2,6 +2,8 @@
 
 The goal for this project is to assess the visual hierarchy of this [Smashing Magazine page](https://www.smashingmagazine.com/) by creating a heat map. Elements that are a darker shade should indicate areas where a user's eyes are drawn first.
 
+You can see the end result [here](https://ubercj.github.io/design-teardown).
+
 A secondary objective is to practice importing fonts, in this case from [Google Fonts](https://fonts.google.com/).
 
 So the obvious question is... **how did they do?** How does the design enhance the UX of the site?
